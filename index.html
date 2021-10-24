@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+    body{
+        margin: 0%;
+        color: white;
+    }
+    .parallax{ 
+        background-image: url("ramizIzzz.jpg");
+        height: 80vh;
+        background-attachment: fixed;
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size:cover ;
+    }
+   
+</style>
+<body>
+    <div class="parallax">
+    
+    
+    <form>
+        <h1 style="text-align: center;">Registration Form</h1>
+        <table align="center">
+            
+            <tr>
+                <td> <label> First Name :  </label></td>
+                <td><input type="text" name="name" placeholder="Enter your First name"   pattern="[a-Z]" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label"> Last Name :</label>
+                    <td><input type="text" name="name" placeholder="Enter your Last Name" pattern="[a-Z]"></td>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label> Email :</label>
+                    <td><input type="email" placeholder="Enter your email" pattern=".+@gmail.com"></td>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label>Mobile Number</label>
+                    <td><input type="number" placeholder="Enter your number" pattern="[0-9]" required minlength="10" maxlength="10"></td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Address :</label>
+                    <td><input type="text" placeholder="Enter Your ADDRESS" pattern="[a-Z]"></td>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+               <td> <button>
+                    Registered 
+                </button></td>
+
+            </tr>
+        </table>
+    </form>
+    </div>
+    
+    
+     
+</body>
+</html>
